@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Projectdisplay from "./pages/Projectdisplay";
 import "react-vertical-timeline-component/style.min.css";
 import Experience from "./pages/Experience";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="Projects" element={<Projects />}></Route>
           <Route path="project/:id" element={<Projectdisplay />} />
           <Route path="Experience" element={<Experience />} />
+          <Route path="Contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
